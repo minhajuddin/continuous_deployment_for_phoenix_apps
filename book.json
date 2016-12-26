@@ -1,0 +1,11 @@
+{
+  "title": "Continuous Deployment for Phoenix Apps",
+  "description": "The complete Guide to setting up Continuous Deployment and Continuous Integration for Phoenix Web Applications",
+  "root": "src",
+  "author": "Khaja Minhajuddin",
+  "language", "en",
+  "styles": {
+    "website": "css/styles.css"
+  }
+}
+
