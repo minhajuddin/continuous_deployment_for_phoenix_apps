@@ -1,0 +1,9 @@
+session "continuous_deployment_for_phoenix_apps"
+directory "/home/minhajuddin/os/books/continuous_deployment_for_phoenix_apps"
+
+window "src", [
+  pane("vim TODO"),
+  pane("git status", :vertical, "-l 40"),
+]
+
+# vim: filetype=ruby
