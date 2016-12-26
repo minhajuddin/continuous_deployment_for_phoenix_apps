@@ -19,5 +19,5 @@ cd _book
 #git init
 #git checkout -b gh-pages
 git add .
-git commit -am 'Update docs'
+git commit -am 'rebuild book'
 git push origin gh-pages
