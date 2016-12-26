@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · Continuous Deployment for Phoenix Apps</title>
+        <title> · Continuous Deployment for Phoenix Apps</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -53,8 +53,6 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="assumptions.html" />
-    
     
 
     </head>
@@ -83,7 +81,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -171,7 +169,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." ></a>
     </h1>
 </div>
 
@@ -186,19 +184,15 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="introduction">Introduction</h1>
-<p>Deploying Phoenix Apps is a very involved process. I hope this book guides you
-through the complete process. It has a few deployment strategies</p>
-<h3 id="simple-git-push-deploy">Simple Git Push Deploy</h3>
-<p>This strategy allows you to deploy your code to a single <a href="GLOSSARY.html#server" class="glossary-term" title="The computer that will run our Phoenix Web Application">server</a> with a <code>git push</code>.
-This is the simplest and should be used if you have just one <a href="GLOSSARY.html#app" class="glossary-term" title="Our Phoenix Web Application.">app</a> <a href="GLOSSARY.html#server" class="glossary-term" title="The computer that will run our Phoenix Web Application">server</a>.</p>
-<h3 id="multi-server-deploy">Multi Server Deploy</h3>
-<p>This strategy allows you to build your release inside a docker container and then
-distribute it to your servers for deployment. Use this if you have more than one <a href="GLOSSARY.html#app" class="glossary-term" title="Our Phoenix Web Application.">app</a> <a href="GLOSSARY.html#server" class="glossary-term" title="The computer that will run our Phoenix Web Application">server</a>.</p>
-<blockquote>
-<p>Contribute:</p>
-<p>If you find issues or can improve this guide, please create a pull request at: <a href="https://github.com/minhajuddin/continuous_deployment_for_phoenix_apps" target="_blank">https://github.com/minhajuddin/continuous_deployment_for_phoenix_apps</a></p>
-</blockquote>
+                                <h1 id="glossary">Glossary</h1>
+<h2 id="server">Server</h2>
+<p>The computer that will run our Phoenix Web Application</p>
+<h2 id="app">App</h2>
+<p>Our Phoenix Web Application.</p>
+<h2 id="local">Local</h2>
+<p>Our <a href="GLOSSARY.html#local" class="glossary-term" title="Our Local computer">Local</a> computer</p>
+<h2 id="distillery">Distillery</h2>
+<p>Release packaging and Release management utility</p>
 
                                 
                                 </section>
@@ -227,10 +221,6 @@ distribute it to your servers for deployment. Use this if you have more than one
             
                 
                 
-                <a href="assumptions.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Assumptions">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
             
         
     </div>
@@ -238,7 +228,7 @@ distribute it to your servers for deployment. Use this if you have more than one
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Assumptions","level":"1.2","depth":1,"path":"assumptions.md","ref":"assumptions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["bootstrap-callout"],"root":"src","styles":{"website":"css/styles.css"},"pluginsConfig":{"bootstrap-callout":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Khaja Minhajuddin","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Continuous Deployment for Phoenix Apps","language":"en","gitbook":"*","description":"The complete Guide to setting up Continuous Deployment and Continuous Integration for Phoenix Web Applications"},"file":{"path":"README.md","mtime":"2016-12-26T18:30:11.374Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-26T19:26:46.035Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"dir":"ltr"},"config":{"plugins":["bootstrap-callout"],"root":"src","styles":{"website":"css/styles.css"},"pluginsConfig":{"bootstrap-callout":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Khaja Minhajuddin","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Continuous Deployment for Phoenix Apps","language":"en","gitbook":"*","description":"The complete Guide to setting up Continuous Deployment and Continuous Integration for Phoenix Web Applications"},"file":{"path":"GLOSSARY.md","mtime":"2016-12-26T18:34:18.712Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-26T19:26:46.035Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
