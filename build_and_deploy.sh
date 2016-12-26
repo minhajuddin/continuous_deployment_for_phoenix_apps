@@ -6,13 +6,6 @@ log(){
   echo "> $*"
 }
 
-# init commands
-#mkdir -p _book
-#cd _book
-#git init
-#git remote add origin git@github.com:minhajuddin/continuous_deployment_for_phoenix_apps.git
-#git checkout -b gh-pages
-
 # build all versions
 log "building book"
 gitbook build
@@ -20,10 +13,10 @@ gitbook build
 #gitbook mobi _books/continuous-deployment-for-phoenix-apps.mobi
 #gitbook epub _books/continuous-deployment-for-phoenix-apps.epub
 
-log "committing code"
-cd _book
-#git init
-#git checkout -b gh-pages
+log "copying files"
+cd _gh_pages
+cp ../_book/* . -R
+
 echo 'continuous-deployment-for-phoenix-apps.rawcode.in' > CNAME
 git add .
 git commit -am 'rebuild book'
