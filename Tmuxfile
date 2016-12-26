@@ -1,9 +1,10 @@
-session "continuous_deployment_for_phoenix_apps"
-directory "/home/minhajuddin/os/books/continuous_deployment_for_phoenix_apps"
+session "cdfpa"
+directory "/home/minhajuddin/os/books/cdfpa"
 
 window "src", [
   pane("vim TODO"),
   pane("git status", :vertical, "-l 40"),
+  pane("gitbook serve --port 5050", :horizontal, "-l 40"),
 ]
 
 # vim: filetype=ruby

@@ -6,6 +6,7 @@
   "language": "en",
   "styles": {
     "website": "css/styles.css"
-  }
+  },
+  "plugins": ["bootstrap-callout"]
 }
 
