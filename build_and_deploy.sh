@@ -18,6 +18,7 @@ gitbook build
 cd _book
 #git init
 #git checkout -b gh-pages
+echo 'continuous-deployment-for-phoenix-apps.rawcode.in' > CNAME
 git add .
 git commit -am 'rebuild book'
 git push origin gh-pages
